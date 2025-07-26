@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 # I have used my current coordinates if you want to find yours
 # then replace my_lat and my_long to your coordinated and change the tzid to your timezome
-api_endpoint = os.getenv("API_ENDPOINT")
+api_endpoint = "https://api.sunrise-sunset.org/json"
 my_lat = os.getenv("MY_LAT")
 my_long =os.getenv("MY_LONG")
 parameters ={
